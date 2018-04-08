@@ -1,9 +1,9 @@
 <?php
 
-  require_once('class/class.php');
+//   require_once('class/class.php');
 
-  $Object = new Greetings();
+//   $Object = new Greetings();
 
-  $Object->SystemStatus;
+//   $Object->SystemStatus;
 
 ?>
