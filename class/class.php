@@ -7,40 +7,11 @@
   class Greetings
   {
 
-      public $Variable;
-
+      public $SystemStatus;
 
       public function __construct()
       {
-        $this->Variable = 'Ноунейм';
-      }
-
-
-      public function greeting1()
-      {
-        echo 'Доброе утро!';
-      }
-
-      public function greeting2()
-      {
-        echo 'Добрый день!';
-      }
-
-      public function GreetingHumanByName($Variable)
-      {
-
-        // $this->Variable = $Name;
-
-        echo 'Привет, ' . $Variable;
-
-      }
-
-      public function Greeting3()
-      {
-
-          $this->GreetingHumanByName('Игорь');
-          echo '<br/>Сработала функция Greeting3';
-
+        echo $this->SystemStatus = 'Система инициализирована';
       }
 
   }

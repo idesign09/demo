@@ -4,9 +4,6 @@
 
   $Object = new Greetings();
 
-  $Object->GreetingHumanByName('Друг');
-  // Greetings::GreetingHumanByName('Игорь');
-
-  // echo $Object->Variable;
+  $Object->SystemStatus;
 
 ?>
