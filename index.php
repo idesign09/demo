@@ -4,9 +4,9 @@
 
   $Object = new Greetings();
 
-  // $Object->GreetingHumanByName('Игорь');
+  $Object->GreetingHumanByName('Друг');
   // Greetings::GreetingHumanByName('Игорь');
 
-  echo $Object->Variable;
+  // echo $Object->Variable;
 
 ?>
